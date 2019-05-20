@@ -1,0 +1,16 @@
+.banner{
+  background: red;
+  height: 100vh;
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+  image-url('outside_wall.jpg');
+  background-size: contain;
+  background-size: cover;
+  h1{
+    color:white;
+    text-align: center;
+  }
+}
