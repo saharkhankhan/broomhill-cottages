@@ -1,6 +1,6 @@
 .banner{
   background: red;
-  height: 100vh;
+  height: 80vh;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -9,8 +9,26 @@
   image-url('outside_wall.jpg');
   background-size: contain;
   background-size: cover;
+  display: flex;
+  .container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
   h1{
     color:white;
     text-align: center;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0 1px 0 black;
+    font-size: 80px;
+    font-weight: bolder;
+  }
+  p{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-shadow: 0 1px 0 black;
   }
 }

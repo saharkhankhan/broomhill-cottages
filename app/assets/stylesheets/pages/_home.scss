@@ -1,1 +1,123 @@
 // Specific CSS for your home-page
+h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  color: #011936;
+}
+
+h3{
+  font-size: 20px;
+  color: grey;
+}
+
+p{
+  color: grey;
+}
+
+
+body{
+  background: white;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+}
+
+.pictures{
+  margin-top: 40px;
+}
+
+
+.c-boat{
+  background-image: image-url('boat.jpg');
+}
+
+.c-wine{
+  background-image: image-url('wine.jpg');
+}
+
+.c-sunset{
+  background-image: image-url('sunset.jpg');
+}
+
+
+.c-bathroom-one{
+  background-image: image-url('bathroom_one.jpg');
+}
+
+.c-bedroom-one{
+  background-image: image-url('bedroom_one.jpg');
+}
+
+.c-bedroom-two{
+  background-image: image-url('bedroom_two.jpg');
+}
+
+.c-estuary{
+  background-image: image-url('estuary.jpg');
+}
+
+.c-frame{
+  background-image: image-url('frame.jpg');
+}
+
+.c-horses{
+  background-image: image-url('horses.jpg');
+}
+
+.c-kitchen{
+  background-image: image-url('kitchen.jpg');
+}
+
+.c-living-room{
+  background-image: image-url('living_room.jpg');
+}
+
+.c-outside-wall{
+  background-image: image-url('outside_wall.jpg');
+}
+
+.c-night-fire{
+  background-image: image-url('night_fire.jpg');
+}
+
+.c-preselis{
+  background-image: image-url('preselis.jpg');
+}
+
+.c-smootch{
+  background-image: image-url('smootch.jpg');
+}
+
+.c-track{
+  background-image: image-url('track.jpg');
+}
+
+.c-fire{
+  background-image: image-url('fire.jpg');
+}
+
+.carousel-item{
+  height: 100%;
+  background-size: contain;
+  background-size: cover;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+
+
+@media(max-width: 992px) {
+  .carousel-inner {
+    height: 100vh;
+  }
+}
+
+@media(max-width: 768px) {
+  .carousel-inner {
+    height: 50vh;
+  }
+}
