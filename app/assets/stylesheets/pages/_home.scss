@@ -2,7 +2,7 @@
 h2{
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
-  color: #011936;
+  color: #0B032D;
 }
 
 h3{
@@ -13,7 +13,7 @@ h3{
 h4{
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
-  color: #ED254E;
+  color: #A4BFEB;
 }
 
 p{
@@ -26,12 +26,11 @@ body{
 }
 
 .logo{
-  height: 80px;
-  width: 80px;
-  &:hover{
-
-    margin-top: 8px;
-  }
+  height: 60px;
+  width: 60px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 3px;
+  border-radius: 5px;
 }
 
 .pictures{
@@ -125,6 +124,14 @@ body{
   text-decoration: none;
   &:hover{
     text-decoration: none;
+  }
+}
+
+.booking-logo{
+  height: 80px;
+  width: 80px;
+  &:hover{
+    margin-top: 8px;
   }
 }
 
